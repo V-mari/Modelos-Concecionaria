@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d80b4cda-a052-4651-a094-48b94c5004e7" name="Default Changelist" comment="" />
+    <list default="true" id="d80b4cda-a052-4651-a094-48b94c5004e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bd.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ConectorBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concesionaria.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Concesionaria.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Concesionaria" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +25,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1zroKyAMZsFhFLgsdLX1YbFH0nN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +39,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="D:/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Concesionaria" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634915507730</updated>
       <workItem from="1634915511824" duration="703000" />
+      <workItem from="1635522386523" duration="3762000" />
     </task>
     <servers />
   </component>
@@ -46,10 +80,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="0" key="#Project_Structure" timestamp="1634915661783">
+    <state x="550" y="0" key="#Project_Structure" timestamp="1635522765108">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1634915661783" />
+    <state x="550" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1635522765108" />
     <state x="897" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1634916210764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -58,5 +92,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="46" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1634916190404" />
+    <state x="664" y="83" key="FileChooserDialogImpl" timestamp="1635522762193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="664" y="83" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1635522762193" />
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom" timestamp="1635526105729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635526105729" />
+    <state width="1322" height="173" key="GridCell.Tab.0.center" timestamp="1635526105729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1635526105729" />
+    <state width="1322" height="173" key="GridCell.Tab.0.left" timestamp="1635526105729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1635526105729" />
+    <state width="1322" height="173" key="GridCell.Tab.0.right" timestamp="1635526105729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1635526105729" />
   </component>
 </project>
