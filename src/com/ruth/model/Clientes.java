@@ -1,17 +1,30 @@
 package com.ruth.model;
 
 public class Clientes {
+    private String nif;
     private String nombre;
     private String ciudad;
     private String direccion;
     private int telefono;
 
-    public Clientes(String nombre, String ciudad, String direccion, int telefono) {
+    public Clientes(String nif, String nombre, String ciudad, String direccion){
+        Clientes clientes = new Clientes("444", "Carlos perez", "Cochabamba", "Av. Ayacucho s/n");
+
+    }
+
+    public Clientes(String nombre, String ciudad, String direccion, int telefono, String nif) {
+        this.setNif(nif);
         this.setNombre(nombre);
         this.setCiudad(ciudad);
         this.setDireccion(direccion);
         this.setTelefono(telefono);
     }
+
+    public Clientes(String nif, String nombre, String ciudad, String direccion, String telefono) {
+    }
+
+    public String getNif(){ return nif;}
+    public void setNif(String nif) { this.nif = nif;}
 
     public String getNombre() {
         return nombre;
@@ -47,11 +60,16 @@ public class Clientes {
 
     @Override
     public String toString() {
-        return "Clientes{" +
+        return "nif{"+
+                "Clientes{" +
                 "nombre='" + nombre + '\'' +
                 ", ciudad='" + ciudad + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", telefono=" + telefono +
                 '}';
+    }
+
+    public void add(Clientes clientes) {
+
     }
 }
